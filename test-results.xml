@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="1.7790" tests="3" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-08-19T06:41:12" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="1.4060" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-08-19T23:22:50" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Testing POST request" timestamp="2021-08-19T06:41:12" tests="3" file="C:\Users\Dell\Documents\ProcesosProyecto\test\test.js" time="1.7790" failures="0">
-    <testcase name="Testing POST request should return average, median, standardDeviation" time="1.4710" classname="should return average, median, standardDeviation">
+  <testsuite name="Testing POST request" timestamp="2021-08-19T23:22:50" tests="3" file="C:\Users\Dell\Documents\ProcesosProyecto\test\test.js" time="1.4060" failures="0">
+    <testcase name="Testing POST request should return average, standardDeviation" time="1.1920" classname="should return average, standardDeviation">
     </testcase>
-    <testcase name="Testing POST request should return average, median, standardDeviation" time="0.1880" classname="should return average, median, standardDeviation">
+    <testcase name="Testing POST request should return average, standardDeviation" time="0.1070" classname="should return average, standardDeviation">
     </testcase>
-    <testcase name="Testing POST request should return average, median, standardDeviation" time="0.1200" classname="should return average, median, standardDeviation">
+    <testcase name="Testing POST request should return average, standardDeviation" time="0.1070" classname="should return average, standardDeviation">
     </testcase>
   </testsuite>
 </testsuites>

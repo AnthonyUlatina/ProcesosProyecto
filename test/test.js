@@ -8,7 +8,7 @@ chai.use(chaiHttp);
 
 //testing post
 describe("Testing POST request", () => {
-    it("should return average, median, standardDeviation", (done) => {
+    it("should return average, standardDeviation", (done) => {
         chai.request("http://localhost:3001")
             .post("/statisticalCalculation")
             .set('content-type', 'application/x-www-form-urlencoded')
@@ -32,7 +32,7 @@ describe("Testing POST request", () => {
                 }
             });
     });
-    it("should return average, median, standardDeviation", (done) => {
+    it("should return average, standardDeviation", (done) => {
         console.log("Testing POST request 2");
         chai.request("http://localhost:3001")
             .post("/statisticalCalculation")
@@ -58,7 +58,7 @@ describe("Testing POST request", () => {
 
             });
     });
-    it("should return average, median, standardDeviation", (done) => {
+    it("should return average, standardDeviation", (done) => {
         console.log("Testing POST request 3");
 
         chai.request("http://localhost:3001")
